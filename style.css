@@ -7,3 +7,19 @@ body{
 .bc{
     background-color: rgba(243, 241, 237, 0.992);
 }
+.bc2{
+    background-color:azure;
+}
+#img{
+    width: 50px;
+    border-radius: 5px;
+}
+.atag{
+    font-size: 20px;
+    text-decoration: none;
+    color:blue;
+}
+.atag:hover{
+    color:red;
+    transition: 0.5s;
+}
