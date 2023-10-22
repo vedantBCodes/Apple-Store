@@ -11,172 +11,250 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      body{
+        margin:0% 10%;
+      }
+      .bc3{
+        background-color: rgb(238, 250, 250);
+      }
+    </style>
   </head>
   <body>
     <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-center">
+      <div class="container-fluid ">
+        <a class="navbar-brand text-primary" href="index.html" >store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="macbook.html">MacBooks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Apple Watches</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="">iPhone</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="">iPad</a>
+            </li>
+           
+          
+        </div>
+      </div>
+    </nav>
+    <!-- Home Page -->
+    <h1 class="display-4 text-center mt-5">Choose your new MacBook</h1>
+    <h1 class="h7 text-center mt-5 font">
+      Forget about marrage , marry with the new MacBook. It's dependable,
+      reliable and you can even go shopping with it.
+    </h1>
+    <hr class="mt-5" />
+
+    <div class="container-fluid m-5">
+      <div class="row m-3">
+        <div class="col-4 bc">
+          <img src="Images/macbook-air-m1.png" alt="" class="img-fluid" />
+          <h3 class="font text-center">MacBook Air with m1 chip</h3>
+          <h3 class="fw-lighter text-center">From $1299</h3>
+          <div class="text-center">
+            <button class="btn btn-outline-secondary">Buy now</button>
+          </div>
+        </div>
+        <div class="col-6 border border-thumbnail">
+          <div class="ps-3 h3 pb-5 bc2 mt-2">
+            <img src="Images/m1-logo.png" alt="" id="img" /> <br />
+            <div class="fw-bold">
+              8-Core CPU <br />
+              7-Core GPU <br />
+              8GB Unified Memory <br />
+              256GB SSD Storage footnote <br />
+            </div>
+            <div class="font">
+              Force Touch trackpad <br />
+              16-core Neural Engine <br />
+              30W USB-C Power Adapter <br />
+              Two Thunderbolt / USB 4 ports <br />
+              Magic Keyboard with Touch ID <br />
+              13-inch Retina display with True Tone <br />
+              <a href="#m1" class="atag">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row m-3">
+        <div class="col-4 bc">
+          <img src="Images/macbook-air-m2.png" alt="" class="img-fluid" />
+          <h3 class="font text-center">MacBook Air with m2 chip</h3>
+          <h3 class="fw-lighter text-center">From $1449</h3>
+          <div class="text-center">
+            <button class="btn btn-outline-secondary">Buy now</button>
+          </div>
+        </div>
+        <div class="col-6 border border-thumbnail">
+          <div class="ps-3 h3 pb-5 bc2 mt-2">
+            <img src="Images/m2-logo.png" alt="" id="img" /> <br />
+            <div class="fw-bold">
+              8-Core CPU <br />
+              10-Core GPU <br />
+              8GB Unified Memory <br />
+              256GB SSD Storage footnote <br />
+            </div>
+            <div class="font">
+              16-core Neural Engine <br />
+              15.3-inch Liquid Retina display with True Tone <br />
+              1080p FaceTime HD camera <br />
+              MagSafe 3 charging port <br />
+              Two Thunderbolt / USB 4 ports <br />
+              Magic Keyboard with Touch ID <br />
+              Force Touch trackpad <br />
+              35W Dual USB-C Port Compact Power Adapter <br />
+              <a href="#m2" class="atag">read more</a> <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row m-3">
+        <div class="col-4 bc">
+          <img src="Images/macbook-pro.png" alt="" class="img-fluid" />
+          <h3 class="font text-center">MacBook pro</h3>
+          <h3 class="fw-lighter text-center">From $1699</h3>
+          <div class="text-center">
+            <button class="btn btn-outline-secondary">Buy now</button>
+          </div>
+        </div>
+        <div class="col-6 border border-thumbnail">
+          <div class="ps-3 h3 pb-5 bc2 mt-2">
+            <img src="Images/m2-pro-logo.png" alt="" id="img" /> <br />
+            <div class="fw-bold">
+              10-Core CPU <br />
+              16-Core GPU <br />
+              16GB Unified Memory <br />
+              512GB SSD Storage¹ <br />
+            </div>
+            <div class="font">
+              16-core Neural Engine <br />
+              14-inch Liquid Retina XDR display <br />
+              Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone
+              jack, MagSafe 3 port <br />
+              Magic Keyboard with Touch ID <br />
+              Force Touch trackpad <br />
+              67W USB-C Power Adapter <br />
+              <a href="#m-pro" class="atag">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- More About mac m1 -->
+    <a name="m1">
+    <div class="bc3 p-3 ">
+    <div class="text-center display-5 m-5 mt-1 ">More About MacBook m1</div>
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-primary" aria-current="page" href="index.html">store</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              MacBook
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Apple Watches
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              iPhone
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              iPad
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
+      <div class="row ">
+        <div class="col-4">
+          <img src="Images/m1-logo.png" alt="" id="img" class="pb-3" /> <br />
+          Apple M1 chip <br /> <br>
+           M1 brings incredible performance, custom
+          technologies and amazing power efficiency to MacBook Air. Packed with
+          16 billion transistors, it integrates the CPU, GPU, I/O and every
+          other significant component and controller onto a single tiny chip.
+          Speed through everyday jobs while using far less energy
+        </div>
+        <div class="col-4">
+          <img src="Images/memory-icon.png" alt="" id="img" class="pb-3"/> <br />
+          Unified Memory <br /> <br>
+          The more unified memory (RAM) you choose, the more apps you can run
+          simultaneously with a higher rate of performance. The MacBook Air with
+          M1 chip can be configured with up to 16GB for more fluid multitasking
+          and easy handling of large files
+        </div>
+        <div class="col-4">
+          <img src="Images/storage-icon.png" alt="" id="img" class="pb-3"/> <br />
+          Storage <br /> <br>
+          Solid-state drive (SSD) storage is the amount of space your MacBook
+          Air has for your documents, photos, music, videos and other files. It
+          delivers significant performance and speed that you'll notice when you
+          start up your Mac, launch an app or browse your photos.
+        </div>
       </div>
     </div>
-  </nav>
-  <!-- Home Page -->
-  <h1 class="display-4 text-center mt-5">Choose your new MacBook</h1>
-  <h1 class="h7 text-center mt-5">Forget about marrage , marry with the new MacBook. It's dependable, reliable and you can even go shopping with it.</h1>
-  <hr class="mx-5 mt-5">
 
-  <div class="container-fluid m-5">
-    <div class="row m-3">
-        <div class="col-1">
-            
-        </div>
-        <div class="col-4 bc">
-            <img src="Images/macbook-air-m1.png" alt="" class="img-fluid">
-            <h3 class="fw-bold text-center">MacBook Air with m1 chip</h3>
-            <h3 class="fw-lighter text-center">From $1299</h3>
-            <div class="text-center"><button class="btn btn-outline-secondary">Buy now</button></div>
-        </div>
-        <div class="col-6 border border-thumbnail">
-            <div class="ps-3 h3 pb-5 bc2  mt-2">
-              <img src="Images/m1-logo.png" alt="" id="img"> <br>
-              <div class="fw-bold">
-              8-Core CPU <br>
-              7-Core GPU <br>
-              8GB Unified Memory <br>
-              256GB SSD Storage footnote <br>
-            </div>
-            <div class="">
-              Force Touch trackpad <br>
-              16-core Neural Engine <br>
-              30W USB-C Power Adapter <br>
-              Two Thunderbolt / USB 4 ports <br>
-              Magic Keyboard with Touch ID <br>
-              13-inch Retina display with True Tone <br>
-              <a href="#" class="atag">read more</a>
-            </div>
-              </div>
-        </div>
-    </div>
-    <div class="row m-3">
-        <div class="col-1">
-
-        </div>
-        <div class="col-4 bc">
-            <img src="Images/macbook-air-m2.png" alt="" class="img-fluid">
-            <h3 class="fw-bold text-center">MacBook Air with m2 chip</h3>
-            <h3 class="fw-lighter text-center">From $1449</h3>
-            <div class="text-center"><button class="btn btn-outline-secondary">Buy now</button></div>
-        </div>
-        <div class="col-6 border border-thumbnail">
-          <div class="ps-3 h3 pb-5 bc2  mt-2">
-            <img src="Images/m2-logo.png" alt="" id="img"> <br>
-            <div class="fw-bold">
-            8-Core CPU <br> 
-            10-Core GPU <br>
-            8GB Unified Memory <br>
-            256GB SSD Storage footnote <br>
-          </div>
-          <div class="">
-            16-core Neural Engine <br>
-            15.3-inch Liquid Retina display with True Tone <br>
-            1080p FaceTime HD camera <br>
-            MagSafe 3 charging port <br>
-            Two Thunderbolt / USB 4 ports <br>
-            Magic Keyboard with Touch ID <br>
-            Force Touch trackpad <br>
-            35W Dual USB-C Port Compact Power Adapter <br>
-            <a href="#" class="atag">read more</a> <br>
-            
-          </div>
-            </div>
-      </div>
-    </div>
-    <div class="row m-3">
-        <div class="col-1">
-
-        </div>
-        <div class="col-4 bc">
-            <img src="Images/macbook-pro.png" alt="" class="img-fluid">
-            <h3 class="fw-bold text-center">MacBook pro</h3>
-            <h3 class="fw-lighter text-center">From $1699</h3>
-            <div class="text-center"><button class="btn btn-outline-secondary">Buy now</button></div>
-        </div>
-        <div class="col-6 border border-thumbnail">
-          <div class="ps-3 h3 pb-5 bc2  mt-2">
-            <img src="Images/m2-pro-logo.png" alt="" id="img"> <br>
-            <div class="fw-bold">
-            10-Core CPU <br>
-            16-Core GPU <br>
-16GB Unified Memory <br>
-512GB SSD Storage¹ <br>
-</div>
-<div class="">
-16-core Neural Engine <br>
-14-inch Liquid Retina XDR display <br>
-Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port <br>
-Magic Keyboard with Touch ID <br>
-Force Touch trackpad <br>
-67W USB-C Power Adapter <br>
-<a href="#" class="atag">read more</a>
-</div>
-
-            </div>
-      </div>
-    </div>
   </div>
+  </a> <br> <br>
+
+  <!-- More About mac m2 -->
+  <a name="m2">
+    <div class="bc p-3 ">
+    <div class="text-center display-5 m-5 mt-1">More About MacBook m2</div>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-4">
+          <img src="Images/m2-logo.png" alt="" id="img" class="pb-3" /> <br />
+          Apple M2 chip <br /> <br>
+          An ultrafast, ultracapable chip engineered to help you zip through everyday tasks and take on more intensive workflows <br> <br>
+
+          &#8729;Run multiple apps and edit thousands of photos or 4K video <br>
+          &#8729;Up to 12x faster than fastest Intel-based MacBook Air footnote ⁴
+        </div>
+        <div class="col-4">
+          <img src="Images/memory-icon.png" alt="" id="img" class="pb-3"/> <br />
+          Unified Memory <br /> <br>
+          Unified memory is faster and more efficient than the same amount of traditional RAM <br> <br>
+
+          &#8729;Add memory to run more apps simultaneously for faster, more fluid multitasking <br>
+          &#8729;Can be configured with up to 24GB of memory
+        </div>
+        <div class="col-4">
+          <img src="Images/storage-icon.png" alt="" id="img" class="pb-3"/> <br />
+          Storage <br /> <br>
+          Solid-state drive (SSD) storage is the amount of space your MacBook Air has for your documents, photos, music, videos and other files <br> <br>
+
+          &#8729;Delivers exceptional performance and speed when you start up your Mac, launch apps, open files and browse libraries <br>
+          &#8729;Can be configured with up to 2TB of storage
+        </div>
+      </div>
+    </div>
+    </div>
+  </a> <br> <br>
+
+   <!-- More About macbook pro -->
+   <a name="m-pro">
+    <div class="bc2 p-3 ">
+    <div class="text-center display-5 m-5 mt-1">More About MacBook pro</div>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-4">
+          <img src="Images/m2-pro-logo.png" alt="" id="img" class="pb-3" /> <br />
+          Apple M2 pro <br /> <br>
+          M2 Pro brings power to take on demanding projects. With its up to 12-core CPU, it makes pro workflows fly — from sorting and editing thousands of images to running computational fluid dynamics simulations. <br>
+
+Its powerful media engine lets you play and edit multiple streams of 4K and 8K ProRes video,³ and the up to 19-core GPU provides a huge boost in graphics performance. <br>
+
+MacBook Pro with M2 Pro supports up to two external displays and up to 8K resolution.
+        </div>
+        <div class="col-4">
+          <img src="Images/memory-icon.png" alt="" id="img" class="pb-3"/> <br />
+          Unified Memory <br /> <br>
+          The M2 chips include superfast unified memory, which provides a single pool of high-bandwidth, low-latency memory that allows apps to efficiently share data between the CPU, GPU and Neural Engine. <br>
+
+This efficiency means you can do more with unified memory than you could with the same amount of traditional RAM, and your Mac can run multiple apps at once while remaining fast and responsive. <br>
+MacBook Pro can be configured with up to 32GB (with M2 Pro) or a staggering 96GB (with M2 Max with 38‑core GPU) for easier multitasking and handling of massive files.
+        </div>
+        <div class="col-4">
+          <img src="Images/storage-icon.png" alt="" id="img" class="pb-3"/> <br />
+          Storage <br /> <br>
+          Solid-state drive (SSD) storage gives you space to store your projects, documents, photos, music, videos, and other files on your MacBook Pro. The SSD in MacBook Pro delivers significant performance that you'll notice when you start up, launch apps, open project files, and browse your libraries. <br>
+
+For demanding workflows with large files, you can configure your MacBook Pro with up to 8TB to deliver even more performance.
+        </div>
+      </div>
+    </div>
+  </a>
   </body>
 </html>

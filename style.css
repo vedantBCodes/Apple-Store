@@ -23,3 +23,9 @@ body{
     color:red;
     transition: 0.5s;
 }
+.font{
+    font-size: 20px;
+}
+.nav  a{
+    color: black;
+}
