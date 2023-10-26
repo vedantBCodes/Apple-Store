@@ -32,3 +32,13 @@ body{
 .iphone15pro img{
     width: 50px;
 }
+.at{
+    text-decoration: none;
+    color:black
+}
+.at:hover{
+    color: rgb(54, 54, 233);
+}
+body{
+    margin:0% 10%;
+  }
