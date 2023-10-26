@@ -14,6 +14,9 @@ body{
     width: 50px;
     border-radius: 5px;
 }
+#img2{
+    width:150px
+}
 .atag{
     font-size: 20px;
     text-decoration: none;
