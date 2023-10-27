@@ -24,8 +24,14 @@ body{
     color:blue;
 }
 .atag:hover{
-    color:red;
+    color:black;
     transition: 0.5s;
+}
+.atag2{
+    text-decoration: none;
+}
+.atag2:hover{
+    text-decoration: underline;
 }
 .font{
     font-size: 20px;
