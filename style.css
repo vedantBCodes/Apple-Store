@@ -5,7 +5,8 @@ body{
     margin-top: 30px;
 }
 .bc{
-    background-color: rgba(243, 241, 237, 0.992);
+    background-color: #F5F5F7;
+    /* background-color: rgba(243, 241, 237, 0.992); */
 }
 .bc2{
     background-color:azure;
