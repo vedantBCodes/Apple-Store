@@ -18,6 +18,9 @@ body{
 #img2{
     width:150px
 }
+.img2{
+    width: 400px;
+}
 .atag{
     font-size: 20px;
     text-decoration: none;
@@ -52,3 +55,16 @@ body{
 body{
     margin:0% 10%;
   }
+  .r-button{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.r-button4{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    background-color: silver;
+}
