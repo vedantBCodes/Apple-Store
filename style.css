@@ -79,4 +79,7 @@ body{
 .dropdown:hover .dropdown-menu{
     display: block;
 }
+#appleLogo{
+    font-size: 21px;
+}
 
