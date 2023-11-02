@@ -88,5 +88,6 @@ body {
   display: block;
 }
 #appleLogo {
-  font-size: 21px;
+  width: 17px;
+  padding-bottom: 5px;
 }
