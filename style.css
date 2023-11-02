@@ -76,7 +76,7 @@ body{
     margin-left: 420px;
 }
 /* Displaying dropdown menu on hover */
-.dropdown:hover .dropdown-menu{
+.h:hover .dropdown-menu{
     display: block;
 }
 #appleLogo{
