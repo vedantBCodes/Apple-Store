@@ -1,85 +1,89 @@
-body{
-    background-color:white;
+body {
+  background-color: white;
 }
-#homePageHeading{
-    margin-top: 30px;
+#homePageHeading {
+  margin-top: 30px;
 }
-.bc{
-    background-color: #F5F5F7;
-    /* background-color: rgba(243, 241, 237, 0.992); */
+.bc {
+  background-color: #f5f5f7;
+  /* background-color: rgba(243, 241, 237, 0.992); */
 }
-.bc2{
-    background-color:azure;
+.bc2 {
+  background-color: azure;
 }
-.bc3{
-    background-color: #fbf9f9;
+.bc3 {
+  background-color: #fbf9f9;
 }
-#img{
-    width: 50px;
-    border-radius: 5px;
+#img {
+  width: 50px;
+  border-radius: 5px;
 }
-#img2{
-    width:150px
+#img2 {
+  width: 150px;
 }
-.img2{
-    width: 400px;
+.img2 {
+  width: 400px;
 }
-.atag{
-    font-size: 20px;
-    text-decoration: none;
-    color:blue;
+.atag {
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
 }
-.atag:hover{
-    color:black;
-    transition: 0.5s;
+.atag:hover {
+  color: black;
+  transition: 0.5s;
 }
-.atag2{
-    text-decoration: none;
+.atag2 {
+  text-decoration: none;
 }
-.atag2:hover{
-    text-decoration: underline;
+.atag2:hover {
+  text-decoration: underline;
 }
-.font{
-    font-size: 20px;
+.font {
+  font-size: 20px;
 }
-.nav  a{
-    color: black;
+.nav a {
+  color: black;
 }
-.iphone15pro img{
-    width: 50px;
+.iphone15pro img {
+  width: 50px;
 }
-.at{
-    text-decoration: none;
-    color:black
+.at {
+  text-decoration: none;
+  color: black;
 }
-.at:hover{
-    color: rgb(54, 54, 233);
+.at:hover {
+  color: rgb(54, 54, 233);
 }
-body{
-    margin:0% 10%;
+body {
+  margin: 0% 10%;
+}
+@media (max-width: 1000px) {
+  body {
+    margin: 0% 0%;
   }
-  .r-button{
-    width:30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 0px 10px;
 }
-.r-button4{
-    width:30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 0px 10px;
-    background-color: silver;
+.r-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0px 10px;
 }
-.rightShift{
-    width: 250px;
-    margin-left: 420px;
+.r-button4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0px 10px;
+  background-color: silver;
+}
+.rightShift {
+  width: 250px;
+  margin-left: 420px;
 }
 /* Displaying dropdown menu on hover */
-.h:hover .dropdown-menu{
-    display: block;
+.h:hover .dropdown-menu {
+  display: block;
 }
-#appleLogo{
-    font-size: 21px;
+#appleLogo {
+  font-size: 21px;
 }
-
