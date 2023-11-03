@@ -60,8 +60,7 @@ body {
 }
 @media (max-width: 1000px) {
   body {
-    margin-right:8px;
-    margin-left: 8px;
+    margin: 0px 5px;
   }
   .font{
     font-size: 15px;
