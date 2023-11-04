@@ -58,6 +58,16 @@ body {
 body {
   margin: 0% 10%;
 }
+.slide{
+  width:700px;
+  margin-left: 100px;
+  
+  border-radius: 20px;
+}
+.icon{
+  position: relative;
+  left:100px;
+}
 @media (max-width: 1000px) {
   body {
     margin: 0px 0px;
@@ -65,6 +75,21 @@ body {
   .font{
     font-size: 15px;
   }
+
+.slide{
+  width:330px;
+  margin-left: 3px;
+  border-radius: 10px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+  position: relative;
+  left:0px;
+}
 }
 .r-button {
   width: 30px;
